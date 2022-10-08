@@ -1,0 +1,39 @@
+@font-face{
+    font-family: 'Overpass';
+    src: url('https://fonts.googleapis.com/css?family=Overpass');
+}
+.overpass{
+    font-family: 'Overpass';
+}
+.overpass-bold{
+    font-family: 'Overpass';
+    font-weight: 700;
+}
+.overpass-light{
+    font-family: 'Overpass';
+    font-weight: 400;
+}
+.text-verydarkblue{
+    color: hsl(216, 12%, 8%);
+}
+.bg-verydarkblue{
+    background-color: hsl(216, 12%, 8%);
+}
+.text-darkblue{
+    color: hsl(213, 19%, 18%);
+}
+.bg-darkblue{
+    background-color: hsl(213, 19%, 18%);
+}
+.text-mediumgrey{
+    color: hsl(216, 12%, 54%);
+}
+.bg-mediumgrey{
+    background-color: hsl(216, 12%, 54%);
+}
+.text-lightgrey{
+    color: hsl(217, 12%, 63%);
+}
+.bg-lightgrey{
+    background-color: hsl(217, 12%, 63%);
+}
