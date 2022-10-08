@@ -2,9 +2,6 @@
     font-family: 'Overpass';
     src: url('https://fonts.googleapis.com/css?family=Overpass');
 }
-.overpass{
-    font-family: 'Overpass';
-}
 .overpass-bold{
     font-family: 'Overpass';
     font-weight: 700;
@@ -24,6 +21,9 @@
 }
 .bg-darkblue{
     background-color: hsl(213, 19%, 18%);
+}
+.border-darkblue{
+    border: 2px solid green;
 }
 .text-mediumgrey{
     color: hsl(216, 12%, 54%);
