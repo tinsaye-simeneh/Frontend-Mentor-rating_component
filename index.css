@@ -1,13 +1,13 @@
 @font-face{
-    font-family: 'Overpass';
-    src: url('https://fonts.googleapis.com/css?family=Overpass');
+    font-family: Overpass;
+    src: url("./assets/fonts/Overpass-VariableFont_wght.ttf");
 }
 .overpass-bold{
-    font-family: 'Overpass';
+    font-family: Overpass;
     font-weight: 700;
 }
 .overpass-light{
-    font-family: 'Overpass';
+    font-family: Overpass;
     font-weight: 400;
 }
 .text-verydarkblue{
