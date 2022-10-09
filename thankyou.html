@@ -52,7 +52,7 @@
           <span
             class="d-inline bg-lightdarkblue text-orange overpass-light border-0 px-3 py-2"
             style="border-radius: 2rem;"
-            >You selected 4 out of 5</span
+            >You selected <span id="rate"></span> out of 5</span
           >
         </div>
 
@@ -76,6 +76,9 @@
       </div>
     <script>
       const rating = localStorage.getItem("rate");
+      window.onload = function(){
+    document.getElementById('rate').innerHTML = rating;
+};
     </script>
   </body>
 </html>
