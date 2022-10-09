@@ -19,6 +19,7 @@
 .attribution {
     font-size: 11px;
     text-align: center;
+    color: hsl(216, 12%, 54%);
   }
   .attribution a {
     color: white;
