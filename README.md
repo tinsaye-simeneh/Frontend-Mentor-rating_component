@@ -26,8 +26,8 @@ Users should be able to:
 ![](./screenshot.png)
 ### Links
 
-- Solution URL: []()
-- Live Site URL: []()
+- Solution URL: [https://www.frontendmentor.io/solutions/responsive-rating-component-using-html-and-bootstrap-U0GQbid1sV](https://www.frontendmentor.io/solutions/responsive-rating-component-using-html-and-bootstrap-U0GQbid1sV)
+- Live Site URL: [https://github.com/tinsaye-simeneh/Frontend-Mentor-rating_component](https://github.com/tinsaye-simeneh/Frontend-Mentor-rating_component)
 
 ## My process
 
