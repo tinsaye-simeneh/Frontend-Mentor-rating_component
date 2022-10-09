@@ -73,6 +73,9 @@
     color: white;
     border: none;
   }
+  .submit-btn{
+    color: white;
+  }
   .submit-btn:hover {
     background-color: white;
     color: orange;
