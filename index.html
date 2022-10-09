@@ -79,7 +79,7 @@
     </div>
     <div class="row ml-2 mt-3 w-100">
       <div class="col-11">
-        <button class="border-0 py-2 overpass-bold bg-orange w-100 submit-btn" style=" border-radius:3rem">
+        <button type="submit" class="border-0 py-2 overpass-bold bg-orange w-100 submit-btn" style=" border-radius:3rem">
           SUBMIT
         </button>
       </div>
@@ -104,11 +104,13 @@ for (var i = 0; i < btns.length; i++) {
       current[0].className = current[0].className.replace(" active", "");
     }
     this.className += " active";
+    localStorage.setItem('rate', current[0].innerHTML);
   });
 }
-  submit.addEventListener("click", function(){
-    location.replace("./" + data);
-  })
+submit[0].addEventListener("click", function() {
+  if (current.length > 0) {
+    window.location.href = "./thankyou.html";
+  }
       </script>
 
   </body>
