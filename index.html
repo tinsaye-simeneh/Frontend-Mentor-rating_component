@@ -77,10 +77,10 @@
             >5</span>
       </div>
     </div>
-    <div class="row ml-1">
-      <div class="col-10 mt-3 mx-3 overpass-bold bg-orange" style="border-radius:0.7rem">
-        <button class="btn text-white w-100">
-          SUBMIT</h5>
+    <div class="row ml-2 mt-3 w-100">
+      <div class="col-11">
+        <button class="border-0 py-2 text-white overpass-bold bg-orange w-100 submit-btn" style="border-radius:3rem">
+          SUBMIT
         </button>
       </div>
     </div>
@@ -96,17 +96,19 @@
     <script>
 var btnContainer = document.getElementById("rating");
 var btns = btnContainer.getElementsByClassName("rate");
+var submit = document.getElementsByClassName("submit-btn");
+var current = document.getElementsByClassName("active");
 for (var i = 0; i < btns.length; i++) {
   btns[i].addEventListener("click", function() {
-    var current = document.getElementsByClassName("active");
     if (current.length > 0) {
       current[0].className = current[0].className.replace(" active", "");
     }
     this.className += " active";
   });
 }
+  submit.addEventListener("click", function(){
 
-      
+  })
       </script>
 
   </body>

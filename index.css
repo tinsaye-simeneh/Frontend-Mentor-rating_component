@@ -63,9 +63,19 @@
 .bg-orange{
     background-color: hsl(25, 97%, 53%);
 }
-.active, .rate:hover {
+.active {
     background-color: hsl(217, 12%, 63%);
     color: white;
+    border: none;
+  }
+  .rate:hover {
+    background-color: hsl(25, 97%, 53%);
+    color: white;
+    border: none;
+  }
+  .submit-btn:hover {
+    background-color: white;
+    color: orange;
     border: none;
   }
 @media screen and (max-width: 768px) {
